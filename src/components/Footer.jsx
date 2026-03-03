@@ -2,11 +2,14 @@ const Footer = (props) => {
   return (
     <footer>
       <p>
-        Made with <span>{props.tech}</span> at{" "}
+        Made with <span>React</span> at{" "}
         <a href="https://www.lereacteur.io/" target="_blank">
-          {props.school}
+          Le Reacteur
         </a>{" "}
-        By <span>{props.signOut}</span>
+        By{" "}
+        <a href="https://github.com/Margaux-972" target="_blank">
+          Margaux Mathar
+        </a>
       </p>
     </footer>
   );

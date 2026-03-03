@@ -1,5 +1,5 @@
-const Title = (props) => {
-  return <h1>{props.label}</h1>;
+const Title = () => {
+  return <h1>The Job Board</h1>;
 };
 
 export default Title;
